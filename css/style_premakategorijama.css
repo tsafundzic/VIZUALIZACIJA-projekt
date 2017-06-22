@@ -1,0 +1,123 @@
+/*CSS Prema kategorijama*/
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+
+    svg{
+    display: block;
+    margin: auto;
+    } 
+
+    .tooltip_naziv{
+        color: #555;
+        font-weight: bold;
+    }
+    path.slice{
+        stroke-width:2px;
+    }
+
+    text{        
+        font-family: 'Muli', sans-serif;
+    }
+
+    polyline{
+        opacity: .3;
+        stroke: black;
+        stroke-width: 2px;
+        fill: none;
+    }
+
+    .labelValue
+    {
+        font-family: 'Muli', sans-serif;
+        font-size: 60%;
+        opacity: .5;
+
+    }
+
+    label {
+        font-family: 'Muli', sans-serif;
+        font-weight: normal;
+    }
+
+    .toolTip {
+        font-family: 'Muli', sans-serif;
+        position: absolute;
+        display: none;
+        width: auto;
+        height: auto;
+        background: none repeat scroll 0 0 white;
+        border: 0 none;
+        border-radius: 1px 1px 1px 1px;
+        box-shadow: -3px 3px 15px #888888;
+        color: black;
+        font: 12px sans-serif;
+        padding: 10px;
+        text-align: center;
+    }
+
+
+    .legend {
+        font-family: 'Muli', sans-serif;
+        font-size: 60%;
+    }
+    rect {
+        stroke-width: 2;
+    }
+
+    text {
+        font: 10px sans-serif;
+    }
+
+
+    text.value{
+        font-size: 200%;
+        fill: white;
+    }
+
+    text.label{
+        font-size: 100%;
+    }
+
+    .axis text {
+        font: 10px sans-serif;
+    }
+
+    .axis path{
+        fill: none;
+        stroke: #000;
+    }
+
+    .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+
+    .axis .tick line {
+        stroke-width: 1;
+        stroke: rgba(0, 0, 0, 0.2);
+    }
+
+    .axisHorizontal path{
+        fill: none;
+    }
+
+    .axisHorizontal line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+
+    .axisHorizontal .tick line {
+        stroke-width: 1;
+        stroke: rgba(0, 0, 0, 0.2);
+    }
+
+    .bar {
+        fill: steelblue;
+        fill-opacity: .9;
+    }
+
+    .x.axis path {
+        display: none;
+    }

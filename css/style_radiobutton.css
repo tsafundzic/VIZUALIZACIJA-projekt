@@ -1,0 +1,186 @@
+/*CSS Izbor grla*/
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+.middle {
+  width: 100%;
+  text-align: center;
+  /* Made by */
+}
+.middle h1 {
+  font-family: 'Muli', sans-serif;
+  color: #fff;
+}
+.middle input[type="radio"] {
+  display: none;
+}
+.middle input[type="radio"]:checked + .box {
+  background-color: steelblue;
+}
+.middle input[type="radio"]:checked + .box2 {
+  background-color: steelblue;
+}
+.middle input[type="radio"]:checked + .box3 {
+  background-color: steelblue;
+}
+.middle input[type="radio"]:checked + .box span {
+  color: white;
+  transform: translateY(20px);
+}
+.middle input[type="radio"]:checked + .box2 span {
+  color: white;
+  transform: translateY(3px);
+}
+.middle input[type="radio"]:checked + .box3 span {
+  color: white;
+  transform: translateY(3px);
+}
+.middle input[type="radio"]:checked + .box span:before {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.middle input[type="radio"]:checked + .box2 span:before {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.middle input[type="radio"]:checked + .box3 span:before {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.middle .box {
+  width: 120px;
+  height: 120px;
+  background-color: #ccc;
+  transition: all 250ms ease;
+  will-change: transition;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  font-family: 'Muli', sans-serif;
+  font-weight: 700;
+}
+
+.middle .box2 {
+  width: 120px;
+  height: 25px;
+  background-color: #ccc;
+  transition: all 250ms ease;
+  will-change: transition;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  font-family: 'Muli', sans-serif;
+  font-weight: 700;
+}
+.middle .box3 {
+  width: 203px;
+  height: 25px;
+  background-color: #ccc;
+  transition: all 250ms ease;
+  will-change: transition;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  font-family: 'Muli', sans-serif;
+  font-weight: 700;
+}
+
+.middle .box:active {
+  transform: translateY(10px);
+}
+.middle .box2:active {
+  transform: translateY(10px);
+}
+.middle .box3:active {
+  transform: translateY(10px);
+}
+
+.middle .box span {
+  position: absolute;
+  transform: translate(0, 20px);
+  left: 0;
+  right: 0;
+  transition: all 300ms ease;
+  font-size: 1.5em;
+  user-select: none;
+  color: steelblue;
+}
+.middle .box2 span {
+  position: absolute;
+  transform: translate(0, 2px);
+  left: 0;
+  right: 0;
+  transition: all 300ms ease;
+  user-select: none;
+  color: steelblue;
+}
+.middle .box3 span {
+  position: absolute;
+  transform: translate(0, 2px);
+  left: 0;
+  right: 0;
+  transition: all 300ms ease;
+  user-select: none;
+  color: steelblue;
+}
+.middle .box span:before {
+  font-size: 1.2em;
+  font-family: FontAwesome;
+  display: block;
+  transform: translateY(-80px);
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+  font-weight: normal;
+  color: white;
+}
+.middle .box2 span:before {
+  font-size: 1.2em;
+  font-family: FontAwesome;
+  display: block;
+  transform: translateY(-80px);
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+  font-weight: normal;
+  color: white;
+}
+.middle .box3 span:before {
+  font-size: 1.2em;
+  font-family: FontAwesome;
+  display: block;
+  transform: translateY(-80px);
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+  font-weight: normal;
+  color: white;
+}
+.middle .Perad span:before {
+  content: url(../img/krava.png);
+}
+.middle .Koze span:before {
+  content: url(../img/koza.png);
+}
+.middle .Svinje span:before {
+  content: url(../img/svinja.png);
+}
+.middle .Goveda span:before {
+  content: url(../img/govedo.png);
+}
+.middle .Ovce span:before {
+  content: url(../img/ovca.png);
+}
+
+.middle .godine span:before {
+}
+
+.middle p {
+  color: #fff;
+  font-family: "Dax", sans-serif;
+  font-weight: 400;
+}
+.middle p span:after {
+  content: '\f0e7';
+  font-family: FontAwesome;
+  color: yellow;
+}

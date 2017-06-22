@@ -1,0 +1,30 @@
+/*CSS Prema godinama*/
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+
+
+.row{
+  text-align: center;
+}
+
+.row .col-lg-12 .head{
+  padding: 10px;
+  background: #fafafa;
+  font-family: 'Muli', sans-serif;
+}
+
+.row .col-lg-12 .footer{
+  margin-top: 50px;
+  padding: 30px;
+  background: #f1f1f1;
+  font-family: 'Muli', sans-serif;
+}
+
+.row .col-lg-12 .button_izbor{
+  padding: 50px;
+  font-family: 'Muli', sans-serif;
+}
+
+a.btn.btn-default{
+  border-radius:0;
+}
